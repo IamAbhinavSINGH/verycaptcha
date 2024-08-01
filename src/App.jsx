@@ -15,7 +15,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter basename='/'>
+      <BrowserRouter basename='/vericaptcha'>
         <Routes>
           <Route path='/' element = {<Home />}/>
           <Route path='/order' element = {<OrderPage />}/>

@@ -1,7 +1,7 @@
 {
   "homepage": "http://vericaptcha.live",
-  "name": "verycaptcha",
-  "private": true,
+  "name": "vericaptcha",
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
