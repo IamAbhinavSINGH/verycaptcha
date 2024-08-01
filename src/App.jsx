@@ -15,11 +15,11 @@ function App() {
 
   return (
     <>
-      <BrowserRouter basename='/vericaptcha'>
+      <BrowserRouter >
         <Routes>
-          <Route path='/' element = {<Home />}/>
-          <Route path='/order' element = {<OrderPage />}/>
-          <Route path='/captcha' element = { <CaptchaPage /> } />
+          <Route path='/vericaptcha' element = {<Home />}/>
+          <Route path='/vericaptcha/order' element = {<OrderPage />}/>
+          <Route path='/vericaptcha/captcha' element = { <CaptchaPage /> } />
         </Routes>
       </BrowserRouter>
     </>
